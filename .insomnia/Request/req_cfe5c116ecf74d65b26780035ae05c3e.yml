@@ -1,0 +1,30 @@
+_id: req_cfe5c116ecf74d65b26780035ae05c3e
+type: Request
+parentId: fld_bb9ede32b2a544b0b8fa7f5ef89a193e
+modified: 1716494322659
+created: 1716494018507
+url: "{{ _.host }}/auth/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "admin.nsk@dev",
+      "password": "admin.nsk@dev"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8eb3bd362d0344d9b049bbe33ea4dc18
+authentication: {}
+metaSortKey: -1716493070119
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,20 @@
+_id: env_ebd96aa12c1c4afbbf8ee3f61fb1c6e6
+type: Environment
+parentId: env_e2ecf75166cfab1b530e849cfcecf0c2fdef6852
+modified: 1716494301474
+created: 1716494201962
+name: Local
+data:
+  admin_jwt: "11"
+  user_jwt: ""
+  host: "{{ _.local_host }}"
+  jwt: "{{ _.admin_jwt }}"
+dataPropertyOrder:
+  "&":
+    - admin_jwt
+    - user_jwt
+    - host
+    - jwt
+color: null
+isPrivate: false
+metaSortKey: 1716494201962

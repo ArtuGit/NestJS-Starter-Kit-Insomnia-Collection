@@ -1,11 +1,14 @@
 _id: env_e2ecf75166cfab1b530e849cfcecf0c2fdef6852
 type: Environment
 parentId: wrk_654e4ce5c65441aeba56da5e1422516a
-modified: 1716492257241
+modified: 1716494287976
 created: 1716492257241
 name: Base Environment
-data: {}
-dataPropertyOrder: null
+data:
+  local_host: http://localhost:3000
+dataPropertyOrder:
+  "&":
+    - local_host
 color: null
 isPrivate: false
 metaSortKey: 1716492257241
