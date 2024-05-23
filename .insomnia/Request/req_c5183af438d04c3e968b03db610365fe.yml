@@ -1,16 +1,18 @@
-_id: req_cfe5c116ecf74d65b26780035ae05c3e
+_id: req_c5183af438d04c3e968b03db610365fe
 type: Request
-parentId: fld_bb9ede32b2a544b0b8fa7f5ef89a193e
-modified: 1716495635837
-created: 1716494018507
-url: "{{ _.host }}/auth/login"
-name: login
+parentId: fld_6eec1867a0a442f297debf86fa6aa6b7
+modified: 1716495641152
+created: 1716495205471
+url: "{{ _.host }}/users/register"
+name: register
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
+      "fullName": "John Doe",
+      "userName": "JD",
       "email": "artuon+jd@fmail.com",
       "password": "pass4test"
     }
@@ -18,9 +20,9 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_8eb3bd362d0344d9b049bbe33ea4dc18
+    id: pair_e1c1db7e052f469c860a6cdb3d8f05ca
 authentication: {}
-metaSortKey: -1716493070119
+metaSortKey: -1716494426633
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
