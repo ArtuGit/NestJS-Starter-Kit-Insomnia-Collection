@@ -1,11 +1,11 @@
 _id: env_ebd96aa12c1c4afbbf8ee3f61fb1c6e6
 type: Environment
 parentId: env_e2ecf75166cfab1b530e849cfcecf0c2fdef6852
-modified: 1716494353981
+modified: 1717086933378
 created: 1716494201962
 name: Local
 data:
-  admin_jwt: yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZjMThjZGQ2LTMzYjgtNGE1Ni04Y2YxLTVhNjg1YTBhMDY4OCIsInJvbGUiOiJTaXRlIEFkbWluIiwic2Vzc2lvbiI6ImJjZjQzZGU5LWM2ZTAtNGY3OS1iMzdlLWM4ODFhMTM5YjViNSIsImlhdCI6MTcxNjQ5NDMxMiwiZXhwIjoxNzE2NDk0OTEyfQ.s117rW8xVyx7ubri67OAf6AWPs2q0LiwFRxrsFfZy4o
+  admin_jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIwNTdlNDMyLWRmMTktNDFmYy05MjIxLTM1MTc3YWFlNWU5MyIsInJvbGUiOiJTaXRlIEFkbWluIiwic2Vzc2lvbiI6ImZlNmQ1YTE1LTk3OTAtNDc1Ni1hYmZjLTM5NmRlNjcxMzE2MyIsImlhdCI6MTcxNzA4NjkxMiwiZXhwIjoxNzE3MTQ2OTEyfQ.J7pIEQO5S4F37WiIY_HqAuFrqdJOTxy1Hwod0OzWXLE
   user_jwt: ""
   host: "{{ _.local_host }}"
   jwt: "{{ _.admin_jwt }}"

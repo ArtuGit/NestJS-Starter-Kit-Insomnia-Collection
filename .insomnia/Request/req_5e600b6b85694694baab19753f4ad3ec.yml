@@ -1,0 +1,56 @@
+_id: req_5e600b6b85694694baab19753f4ad3ec
+type: Request
+parentId: fld_6eec1867a0a442f297debf86fa6aa6b7
+modified: 1717092250562
+created: 1716927650270
+url: "{{ _.host }}/users"
+name: users
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    }
+parameters:
+  - id: pair_18235c5075144f9685b3803f2858bd5a
+    name: search
+    value: example.com
+    description: ""
+    disabled: false
+  - id: pair_15f70dc03bdc41cb889aa9c9be02a41f
+    name: page
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_e641274352fa41d99b59874f6e6df7a6
+    name: take
+    value: "5"
+    description: ""
+    disabled: false
+  - id: pair_b8912459bd574d1b8564af28e09a97d8
+    name: sortBy
+    value: ws
+    description: ""
+    disabled: true
+  - id: pair_f779adb97c064643886f88a376cbcc04
+    name: sortDir
+    value: desc
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_454447a669284fc9b617882390660d27
+authentication:
+  type: bearer
+  token: "{{ _.jwt }}"
+  disabled: false
+metaSortKey: -1716493748351
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
